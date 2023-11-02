@@ -11,9 +11,9 @@ using System.Windows.Forms;
 namespace SQL_to_String_Builder
 {
     //<a href="https://www.flaticon.es/iconos-gratis/nlp" title="nlp iconos">Nlp iconos creados por Freepik - Flaticon</a>
-    public partial class Form1 : Form
+    public partial class frmMain : Form
     {
-        public Form1()
+        public frmMain()
         {
             InitializeComponent();
         }

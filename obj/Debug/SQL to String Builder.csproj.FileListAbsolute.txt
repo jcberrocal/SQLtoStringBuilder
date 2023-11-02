@@ -1,0 +1,18 @@
+D:\Repositorios\SQL to String Builder\bin\Debug\SQL to String Builder.exe.config
+D:\Repositorios\SQL to String Builder\bin\Debug\SQL to String Builder.exe
+D:\Repositorios\SQL to String Builder\bin\Debug\SQL to String Builder.pdb
+D:\Repositorios\SQL to String Builder\bin\Debug\DevExpress.Data.v10.1.dll
+D:\Repositorios\SQL to String Builder\bin\Debug\DevExpress.Utils.v10.1.dll
+D:\Repositorios\SQL to String Builder\bin\Debug\DevExpress.XtraEditors.v10.1.dll
+D:\Repositorios\SQL to String Builder\bin\Debug\DevExpress.Data.v10.1.xml
+D:\Repositorios\SQL to String Builder\bin\Debug\DevExpress.Utils.v10.1.xml
+D:\Repositorios\SQL to String Builder\bin\Debug\DevExpress.XtraEditors.v10.1.xml
+D:\Repositorios\SQL to String Builder\obj\Debug\SQL to String Builder.csproj.AssemblyReference.cache
+D:\Repositorios\SQL to String Builder\obj\Debug\SQL_to_String_Builder.frmMain.resources
+D:\Repositorios\SQL to String Builder\obj\Debug\SQL_to_String_Builder.Properties.Resources.resources
+D:\Repositorios\SQL to String Builder\obj\Debug\SQL to String Builder.csproj.GenerateResource.cache
+D:\Repositorios\SQL to String Builder\obj\Debug\SQL to String Builder.exe.licenses
+D:\Repositorios\SQL to String Builder\obj\Debug\SQL to String Builder.csproj.CoreCompileInputs.cache
+D:\Repositorios\SQL to String Builder\obj\Debug\SQL to String Builder.csproj.CopyComplete
+D:\Repositorios\SQL to String Builder\obj\Debug\SQL to String Builder.exe
+D:\Repositorios\SQL to String Builder\obj\Debug\SQL to String Builder.pdb
