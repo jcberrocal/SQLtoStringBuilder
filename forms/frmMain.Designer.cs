@@ -50,6 +50,8 @@ namespace SQL_to_String_Builder
             this.edtOriginalText.Name = "edtOriginalText";
             this.edtOriginalText.Properties.Appearance.Font = new System.Drawing.Font("Lucida Sans Typewriter", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.edtOriginalText.Properties.Appearance.Options.UseFont = true;
+            this.edtOriginalText.Properties.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.edtOriginalText.Properties.WordWrap = false;
             this.edtOriginalText.Size = new System.Drawing.Size(680, 165);
             this.edtOriginalText.TabIndex = 0;
             // 
@@ -59,6 +61,8 @@ namespace SQL_to_String_Builder
             this.edtConvertedText.Name = "edtConvertedText";
             this.edtConvertedText.Properties.Appearance.Font = new System.Drawing.Font("Lucida Sans Typewriter", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.edtConvertedText.Properties.Appearance.Options.UseFont = true;
+            this.edtConvertedText.Properties.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.edtConvertedText.Properties.WordWrap = false;
             this.edtConvertedText.Size = new System.Drawing.Size(680, 165);
             this.edtConvertedText.TabIndex = 1;
             // 
@@ -71,6 +75,7 @@ namespace SQL_to_String_Builder
             this.btnConvert.Size = new System.Drawing.Size(70, 23);
             this.btnConvert.TabIndex = 2;
             this.btnConvert.Text = "Convert";
+            this.btnConvert.Click += new System.EventHandler(this.btnConvert_Click);
             // 
             // pbConvert
             // 
@@ -91,6 +96,7 @@ namespace SQL_to_String_Builder
             this.btnCopyToClipboard.Size = new System.Drawing.Size(140, 23);
             this.btnCopyToClipboard.TabIndex = 4;
             this.btnCopyToClipboard.Text = "Copy to Clipboard";
+            this.btnCopyToClipboard.Click += new System.EventHandler(this.btnCopyToClipboard_Click);
             // 
             // rgSelection
             // 
@@ -105,6 +111,7 @@ namespace SQL_to_String_Builder
             // rbSQLtoSB
             // 
             this.rbSQLtoSB.AutoSize = true;
+            this.rbSQLtoSB.Checked = true;
             this.rbSQLtoSB.Location = new System.Drawing.Point(25, 26);
             this.rbSQLtoSB.Name = "rbSQLtoSB";
             this.rbSQLtoSB.Size = new System.Drawing.Size(126, 17);
@@ -120,7 +127,6 @@ namespace SQL_to_String_Builder
             this.rbSBtoSQL.Name = "rbSBtoSQL";
             this.rbSBtoSQL.Size = new System.Drawing.Size(123, 17);
             this.rbSBtoSQL.TabIndex = 7;
-            this.rbSBtoSQL.TabStop = true;
             this.rbSBtoSQL.Text = "String Builder to SQL";
             this.rbSBtoSQL.UseVisualStyleBackColor = true;
             // 

@@ -17,5 +17,40 @@ namespace SQL_to_String_Builder
         {
             InitializeComponent();
         }
+
+        private void btnConvert_Click(object sender, EventArgs e)
+        {
+            string text = edtOriginalText.Text;
+            edtConvertedText.Text = null;
+            string[] lines = text.Split(new[] { Environment.NewLine }, StringSplitOptions.None);
+            foreach (string line in lines)
+            {
+                string newLine = string.Empty;
+                if (line.Length > 0)
+                {
+                    if (rbSQLtoSB.Checked)
+                        newLine = "sql.AppendLine(\"" + line + "\");";
+                    else
+                    {
+                        newLine = line.Replace("sql.AppendLine(\"", "");
+                        newLine = newLine.Substring(0, newLine.Length - 3);
+                    }
+                }
+                edtConvertedText.EditValue = edtConvertedText.EditValue + newLine + Environment.NewLine;
+            }
+        }
+
+        private void btnCopyToClipboard_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Clipboard.SetText(edtConvertedText.EditValue.ToString());
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al copiar datos al portapapeles: " + ex.Message, "Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }
