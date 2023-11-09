@@ -148,6 +148,7 @@ namespace SQL_to_String_Builder
             this.MaximumSize = new System.Drawing.Size(720, 540);
             this.MinimumSize = new System.Drawing.Size(720, 540);
             this.Name = "frmMain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SQL to String Builder";
             ((System.ComponentModel.ISupportInitialize)(this.edtOriginalText.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.edtConvertedText.Properties)).EndInit();
