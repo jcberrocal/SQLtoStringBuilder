@@ -32,7 +32,8 @@ namespace SQL_to_String_Builder
                         newLine = "sql.AppendLine(\"" + line + "\");";
                     else
                     {
-                        newLine = line.Replace("sql.AppendLine(\"", "");
+                        newLine = line.Trim();
+                        newLine = newLine.Replace("sql.AppendLine(\"", "");
                         newLine = newLine.Substring(0, newLine.Length - 3);
                     }
                 }
